@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+.main{
+    border:2px solid black;
+    border-top:0px;
+    position:absolute;
+    left:32rem;
+    top:10rem;
+    height:28rem;
+    width:25rem;
+    background-color:black;
+    display:flex;
+     justify-content:space-around;
+     
+    
+     
+}
+/* .btn{
+    height:5em;
+    width:5em;
+    border-radius:50%;
+    
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    background-color:silver;
+    margin:0.5em;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+} */
+.btn {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    
+    background-color: silver;
+    margin: 0.5em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+   
+
+
+
+
+.equal{
+    background-color: orange;
+}
+.input{
+    position:absolute;
+    left:32rem;
+    height:10rem;
+    width:25rem;
+    background-color: silver;
+    border:2px solid black;
+    border-bottom:0px;
+    font-size:40px;
+}
